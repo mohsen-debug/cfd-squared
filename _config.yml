@@ -17,15 +17,15 @@ theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "CFD Squared"
+title: "CFD <sup>2</sup>"
 description: "My nitty gritty stuff about CFD"
-baseurl: "/example" # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
+baseurl: "/cfd-squared" # the subpath of your site, e.g. "/blog"
+url: https://mohsen-debug.github.io/cfd-squared/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo: #"/images/avatar.png" # path of site logo, e.g. "/assets/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
-mathjax:
+mathjax: 
   enable: true
 #  combo: "tex-mml-chtml"
 #  tags: "none"
@@ -38,7 +38,7 @@ google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
-  username: mmistakes # site's Twitter username
+  username: # site's Twitter username
 
 # Liquid
 liquid:
@@ -50,7 +50,7 @@ feed:
   path: atom.xml
 
 # Pagination - https://jekyllrb.com/docs/pagination/
-paginate: 10
+paginate: 0
 paginate_path: /page:num/
 
 # Search
@@ -80,7 +80,7 @@ plugins:
 
 # Collections
 collections:
-  recipes:
+  projects:
     output: true
     permalink: /:collection/:path/
 
@@ -94,10 +94,10 @@ defaults:
       layout: post
       comments: true
       share: true
-  # Recipe defaults
+  # Projects defaults
   - scope:
-      path: "_recipes"
-      type: recipes
+      path: "_projects"
+      type: projects
     values:
       layout: post
       comments: true
@@ -105,32 +105,32 @@ defaults:
 
 # Site Author
 author:
-  name: Michael Rose
-  picture: /images/michael-rose-photo.jpg
-  email:
-  twitter: mmistakes
+  name: Mohsen Karimi
+  picture: /images/avatar.png
+  email: mohsenk@outlook.com
+  twitter: 
   links:
-    - title: Twitter
-      url: https://twitter.com/mmistakes
-      icon: fab fa-twitter-square
-    - title: Instagram
-      url: https://instagram.com/mmistakes
-      icon: fab fa-instagram
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/mohsenka/
+      icon: fab fa-linkedin-square
+    # - title: Instagram
+    #   url: https://instagram.com/mmistakes
+    #   icon: fab fa-instagram
     - title: GitHub
-      url: https://github.com/mmistakes
+      url: https://github.com/karimimp
       icon: fab fa-github-square
 
 # Footer Links
 footer_links:
-  - title: Twitter
-    url: https://twitter.com/mmistakes
-    icon: fab fa-twitter-square
-  - title: Instagram
-    url: https://instagram.com/mmistakes
-    icon: fab fa-instagram
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/mohsenka/
+    icon: fab fa-linkedin-square
+  # - title: Instagram
+  #   url: https://instagram.com/mmistakes
+  #   icon: fab fa-instagram
   - title: GitHub
-    url: https://github.com/mmistakes
+    url: https://github.com/karimimp
     icon: fab fa-github-square
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+  # - title: Feed
+  #   url: atom.xml
+  #   icon: fas fa-rss-square
