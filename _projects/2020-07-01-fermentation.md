@@ -18,14 +18,15 @@ tension forces at the interface might lead to nonphysical velocities  also known
  as _wobbling interface or parasitic currents_.
 
 
-<iframe width="600" height="330" src="https://www.youtube.com/embed/jo_ll1XzLRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include responsive-embed url="https://www.youtube.com/embed/jo_ll1XzLRo" ratio="16:9" %}
 
+<!-- <iframe width="600" height="330" src="https://www.youtube.com/embed/jo_ll1XzLRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 Below is an image of OpenFOAM simulations capturing the thickness of mass 
 boundary layer for diffusion of a species. 
 
 
-<img src="/assets/images/bl.png?raw=true" 
+<img src="/cfd-squared/images/bl.png?raw=true" class="align-center" width="600" height="300"
 title="Thickness mass boundary layer"/>
 
 The other parallel line of work with ANSYS Fluent is concentrated on simulating
@@ -41,7 +42,9 @@ The simulations are validated with measurements. The below image and video are
 examples of modeling results.
 
 
-<img src="/assets/images/bsd.png?raw=true" title="Bubble size distribution"/>
+<img src="/cfd-squared/images/bsd.png?raw=true" class="align-center" 
+title="Bubble size distribution"/>
 
+{% include responsive-embed url="https://www.youtube.com/embed/W1bVpep5w4c" ratio="16:9" %}
 
-<iframe width="600" height="330" src="https://www.youtube.com/embed/W1bVpep5w4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="600" height="330" src="https://www.youtube.com/embed/W1bVpep5w4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
