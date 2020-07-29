@@ -18,7 +18,7 @@ remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "CFD <sup>2</sup>"
-description: "My nitty gritty stuff about CFD"
+description: "Nitty-gritties about CFD and more"
 baseurl: "/cfd-squared" # the subpath of your site, e.g. "/blog"
 url: https://mohsen-debug.github.io/cfd-squared/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: #"/images/avatar.png" # path of site logo, e.g. "/assets/images/logo.png"
@@ -108,23 +108,23 @@ author:
   name: Mohsen Karimi
   picture: /images/avatar.png
   email: mohsenk@outlook.com
-  twitter: 
-  links:
-    - title: LinkedIn
-      url: https://www.linkedin.com/in/mohsenka/
-      icon: fab fa-linkedin-square
-    # - title: Instagram
-    #   url: https://instagram.com/mmistakes
-    #   icon: fab fa-instagram
-    - title: GitHub
-      url: https://github.com/karimimp
-      icon: fab fa-github-square
+  # twitter: 
+  # links:
+  #   - title: LinkedIn
+  #     url: https://www.linkedin.com/in/mohsenka/
+  #     icon: fab fa-linkedin
+  #   # - title: Instagram
+  #   #   url: https://instagram.com/mmistakes
+  #   #   icon: fab fa-instagram
+  #   - title: GitHub
+  #     url: https://github.com/karimimp
+  #     icon: fab fa-github-square
 
 # Footer Links
 footer_links:
   - title: LinkedIn
     url: https://www.linkedin.com/in/mohsenka/
-    icon: fab fa-linkedin-square
+    icon: fab fa-linkedin
   # - title: Instagram
   #   url: https://instagram.com/mmistakes
   #   icon: fab fa-instagram
