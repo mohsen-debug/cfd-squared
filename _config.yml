@@ -17,11 +17,11 @@
 remote_theme: mmistakes/so-simple-theme@3.2.0
 skin: "/assets/css/skins/default.css"
 locale: en-US
-title: "CFD <sup>2</sup>"
-description: "Nitty-gritties about CFD and more"
+title: "CFD<sup>2</sup>"
+description: "Nitty-gritties of CFD and more"
 baseurl: "/cfd-squared" # the subpath of your site, e.g. "/blog"
 url: https://mohsen-debug.github.io/cfd-squared/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-logo: #"/images/avatar.png" # path of site logo, e.g. "/assets/images/logo.png"
+logo: #/assets/projects_images/logo.png #"/images/avatar.png" # path of site logo, e.g. "/assets/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
