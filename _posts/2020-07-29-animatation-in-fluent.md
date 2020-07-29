@@ -11,7 +11,7 @@ All I need to do is just click on
 below tells the whole story. Just make sure to setup the animation objects 
 correctly:
 
-<img src="/cfd-squared/assets/posts_images/gui_animation.png?raw=true" 
+<img src="/cfd-squared/assets/posts_images/gui_animation1.png?raw=true" 
 title="Fluent window to setup animation" class="align-center" />
 
 The second method is something that I usually forget. It is rather rare to run 
