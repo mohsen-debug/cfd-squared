@@ -78,7 +78,7 @@ Replacing Eq. 5 into Eq. 4, I can re-write the effective diffusion coefficient:
 
 __Eq. 6 D_eff__
 
-This is now pretty clear because as long as I know $Sc_turb$ and $\mu_turb$then 
+This is now pretty clear because as long as I know $$Sc_turb$$ and $$\mu_turb$$ then 
 the effective turbulent diffusion is computed seamlessly. I use Fluent macro 
 `C_MU_T(c,t)` to retrieve the value of turbulent viscosity. For the turbulent 
 Schmidt number I use the recommended value for of **0.7** for $k-\varepsilon$ 
