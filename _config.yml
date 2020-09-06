@@ -25,7 +25,7 @@ logo: #/assets/projects_images/logo.png #"/images/avatar.png" # path of site log
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
-mathjax: 
+mathjax:
   enable: true
   combo: "tex-svg"
   tags: "ams"
