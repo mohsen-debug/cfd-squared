@@ -3,6 +3,8 @@ layout: post
 title: Coding turbulent diffusion coefficient for a scalar equation
 ---
 
+$$ a +b = c $$
+
 Let's start by dissecting the title, since it's quite a mouthful one! First thing 
 first, I am dealing with a turbulent flow then I am solving a scalar equation and I 
 got to code something, so UDF stuff! It might sound a bit daunting, but it is 
