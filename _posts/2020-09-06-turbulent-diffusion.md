@@ -88,7 +88,7 @@ model or $$1$$ for $$RSM$$.
 There is one last point before coding $$D_{eff}$$. Looking at 
 Fluent material properties menu:
 
-<img src="/assets/posts_images/diffusivity_unit.png?raw=true" 
+<img src="/cfd-squared/assets/posts_images/diffusivity_unit.png?raw=true" 
 title="Diffusivity Unit" class="align-center" />
 
 The diffusivity unit is $$kg/m \cdot s$$ that tells me Fluent multiply the diffusion 
@@ -135,7 +135,7 @@ DEFINE_DIFFUSIVITY(uds_diff_coeff,c,t,i)
 After compiling, the UDF name in this case `uds_diff_coeff` shows up on the 
 material properties window where I can hook it up to the calculations. 
 
-<img src="/assets/posts_images/hookup_diffusivity.png?raw=true" 
+<img src="/cfd-squared/assets/posts_images/hookup_diffusivity.png?raw=true" 
 title="Diffusivity Unit" class="align-center" />
 
 
